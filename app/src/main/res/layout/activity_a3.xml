@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/llViewMovie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:weightSum="12"
+        tools:context=".activities.A3Contact">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackContact"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:drawableRight="@drawable/ic_back"
+            android:drawableTint="#000000"
+            android:textColor="#000000"
+            app:backgroundTint="#FFFFFF"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:rippleColor="@color/white"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvDoContact"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/alata"
+            android:text="DoCinema"
+            android:textAlignment="center"
+            android:textColor="@color/purple_dark"
+            android:textColorHighlight="#EC4141"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHelp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:text="Find help online "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWeb"
+            android:layout_width="361dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"
+            android:background="@color/purple_700"
+            android:drawableLeft="@drawable/ic_help"
+            android:drawableTint="#673AB7"
+            android:fontFamily="@font/alata"
+            android:outlineAmbientShadowColor="@color/purple_dark"
+            android:outlineSpotShadowColor="@color/purple_dark"
+            android:text="Help centre "
+            android:textAlignment="textStart"
+            android:textColor="#3F51B5"
+            android:textSize="10sp"
+            app:backgroundTint="#FFFFFF"
+            app:rippleColor="@color/white"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvHelp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Contact"
+            android:fontFamily="@font/alata"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="with the DoCinema customer Service"
+            android:fontFamily="@font/alata"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEmail"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:accessibilityLiveRegion="none"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawableTint="#FFFFFF"
+            android:text="EMAIL"
+            android:fontFamily="@font/alata"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCall"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:accessibilityLiveRegion="none"
+            android:drawableLeft="@drawable/ic_call"
+            android:drawableTint="@color/white"
+            android:text="CALL"
+            android:fontFamily="@font/alata"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="240dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
